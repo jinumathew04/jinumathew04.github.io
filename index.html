@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<div class="mainpage">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>jinumathew</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/newstylesheet.css" media="screen">
+  </head>
+
+  <body>
+    <div class="flexrow headersection">
+      <div>
+        <img src="assets/images/IMG_NEW.jpg" alt="" class="myimage">
+      </div>
+      <div style="width: 100%">
+        <div class="name">
+          Jinu Rose Mathew
+        </div>
+        <div class="flexrow social">
+          <div></div>
+          <div class="flexrow social">
+            <img id='githubicon' src="assets/images/githubicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
+            <img id='linkedinicon' src="assets/images/linkedinicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
+            <img id='fbicon' src="assets/images/fbicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
+            <img id='twittericon' src="assets/images/twittericon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
+            <img id='resumeicon' src="assets/images/resumeicon.jpg" alt="" class="socialimage" onclick="sociaimageclick(this)">
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="bodysection">
+      <div class="flexrow fullheight">
+        <div class="tab flexcol">
+          <button class="tablinks active" onclick="openCity(event, 'About Me')">ABOUT ME</button>
+          <button class="tablinks" onclick="openCity(event, 'Technical Skills')">TECHNICAL SKILLS</button>
+          <button class="tablinks" onclick="openCity(event, 'Experience')">EXPERIENCE</button>
+          <button class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</button>
+          <button class="tablinks" onclick="openCity(event, 'Education')">EDUCATION</button>
+          <button class="tablinks" onclick="openCity(event, 'ContactMe')">CONTACT ME</button>
+        </div>
+        <div style="overflow: scroll;">
+          <div id="About Me" class="tabcontent" style="display: block; height: 100%;">
+            <div class="panel">
+              <span class="boldtext">ABOUT ME</span>
+            </div>
+            <div class="aboutpanel myfullimage">
+              <p style="word-wrap: break-word;">Program Manager with 2+ years of professional experience. I am a dynamic, engaging manager with extensive experience
+                in client management, analysis, and operations. I have worked in the education management industry with a
+                focus of growing programs through strategy and execution.
+              </p>
+            </div>
+          </div>
+
+          <div id="Technical Skills" class="tabcontent">
+            <div class="panel">
+              <span class="boldtext">TECHNICAL SKILLS</span>
+            </div>
+            <div class="aboutpanel">
+              <div class="chip boldtext" style="color: rgb(145, 193, 255);">LANGUAGES</div>
+              <div class="flexrow flexwrap">
+                <div class="chip">Python</div>
+                <div class="chip">HTML 5</div>
+                <div class="chip">CSS3</div>
+                <div class="chip">C</div>
+              </div>
+              <div class="chip boldtext" style="color: rgb(145, 193, 255);">DATABASE</div>
+              <div class="flexrow flexwrap">
+                <div class="chip">Oracle</div>
+                <div class="chip">MySQL</div>
+                <div class="chip">SQL Server</div>
+              </div>
+              <div class="chip boldtext" style="color: rgb(145, 193, 255);">FRAMEWORKS</div>
+              <div class="flexrow flexwrap">
+                <div class="chip">Tableau</div>
+                <div class="chip">Git</div>
+                <div class="chip">Microsoft Visual Studio</div>
+                <div class="chip">Numpy</div>
+                <div class="chip">Pandas</div>
+                <div class="chip">Sci-kit</div>
+              </div>
+              <div class="chip boldtext" style="color: rgb(145, 193, 255);">SOFTWARE PROCESSES AND TOOLS </div>
+              <div class="flexrow flexwrap">
+                <div class="chip">Git</div>
+                <div class="chip">JIRA</div>
+                <div class="chip">Confluence</div>
+                <div class="chip">Jenkins</div>
+                <div class="chip">Stash</div>
+                <div class="chip">Postman</div>
+                <div class="chip">Scrum agile software methodology</div>
+              </div>
+              <div class="chip boldtext" style="color: rgb(145, 193, 255);">OPERATING SYSTEMS </div>
+              <div class="flexrow flexwrap">
+                <div class="chip">Android</div>
+                <div class="chip">Mac OS X</div>
+                <div class="chip">Linux</div>
+                <div class="chip">Windows</div>
+              </div>
+            </div>
+          </div>
+          <div id="Experience" class="tabcontent">
+            <div class="panel">
+              <span class="boldtext">EXPERIENCE</span>
+            </div>
+            <div style="height: 2vmin; width: 100%"></div>
+            <button class="accordion" onclick="openAccordian(event, 'tesla')">
+              <div class="flexrow" style="width: 100%;">
+                <img src="assets/images/asapicon.png" alt="" class="asapiconstyle">
+                <div class="chipacc">Additional Skill Acquisition Program, Govt. of Kerala</div>
+                <div class="chipacc" style="margin-left: auto">Kerala, India</div>
+                <img id="teslaup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
+                <img id="tesladown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
+              </div>
+            </button>
+            <div id="teslapanel" class="subpanel">
+              <div class="flexrow subexp">
+                <div class="chipexp">Program Manager</div>
+                <div class="chipexp">Mar 2018 – Sep 2019</div>
+              </div>
+              <div>
+                <div class="chipaccexp">Management Information System</div>
+                <ul style="list-style-type:disc;">
+                  <li>MIS is the web application used by ASAP for the Skill Development Center management.</li>
+                  <li>The application was used for asset management, financial management, Quality assurance and report generation.</li>
+                  <li>Effectively communicated with stakeholders for requirement gathering.</li>
+                  <li>Conducted weekly meetings and stand-ups to ensure timely delivery of the product.</li>
+                  <li>Automated weekly and daily reports for the upper management using Python and SQL Server. </li>
+                  <li>Created technical documentation in confluence for various modules of the application.</li>
+                  <li>Coordinated releases for the MIS application.</li>
+                  <li>Performed Integration, Functional, Acceptance and Smoke testing of application for each release.</li>
+                </ul>
+                <div class="technologies">
+                  <div class="flexrow">
+                    <div class="chipexp">Technologies</div>
+                    <div class="padng">Python, Oracle, JIRA, Confluence, Postman
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flexrow subexp">
+                <div class="chipexp">Program Manager</div>
+                <div class="chipexp">Mar 2017 – Mar 2018</div>
+              </div>
+              <div>
+                <div class="chipaccexp">Account Management System</div>
+                <ul style="list-style-type:disc;">
+                  <li>Account management System is a web application used for fund allotments within the organization.</li>
+                  <li>The application has the option for Fund request, Expenditure Analysis and Fund allotment for ASAP.</li>
+                  <li>Created expenditure reports using Python and SQL Server for upper management.</li>
+                  <li>Performed the Integration, Functional, Acceptance and Smoke testing for the application.</li>
+                  <li>Tested the API’s for the application using postman.</li>
+                  <li>Created documentation for project in confluence. </li>
+                </ul>
+                <div class="technologies">
+                  <div class="flexrow">
+                    <div class="chipexp">Technologies</div>
+                    <div class="padng">Python, Oracle, JIRA, Confluence, Postman
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flexrow subexp">
+                <div class="chipexp">Program Manager Trainee</div>
+                <div class="chipexp">Jan 2017 – Mar 2017</div>
+              </div>
+              <div>
+                <div class="chipaccexp">Training Project</div>
+                <ul style="list-style-type:disc;">
+                  <li>Created a dashboard to track the skill development class progression.</li>
+                  <li>The dashboard tracked the class details and completion status.</li>
+                  <li>The project also predicted the tentative dates for the completion of pending classes within a given deadline.</li>
+                </ul>
+                <div class="technologies">
+                  <div class="flexrow">
+                    <div class="chipexp">Technologies</div>
+                    <div class="padng">Tableau, MySQL
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div id="Projects" class="tabcontent">
+            <div class="panel">
+              <span class="boldtext">ACADEMIC PROJECTS</span>
+            </div>
+            <div style="height: 2vmin; width: 100%"></div>
+            <button class="accordion" onclick="openAccordian(event, 'ritacademic')">
+              <div class="flexrow" style="width: 100%">
+                <img src="assets/images/ajceicon.jpg" alt="" class="ajceiconstyle">
+                <div class="chipacc">Amal Jyothi College of Engineering</div>
+                <div class="chipacc" style="margin-left: auto">Kerala, IN</div>
+                <img id="ritacademicup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
+                <img id="ritacademicdown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
+              </div>
+            </button>
+            <div id="ritacademicpanel" class="subpanel">
+              <div class="chipaccexp">Blind Assistive Technology (BAT)</div>
+              <div>
+                <ul style="list-style-type:disc;">
+                  <li>The proposed system was designed to help the visually impaired people to locate their objects.</li>
+                  <li>BAT uses camera and OpenCV libraries to detect pre-defined tags that are used to identify objects.</li>
+                  <li>The System uses sound to convey the position of the tagged objects.</li>
+                  <li>While in learn mode, the system associates pre-defined tags with objects.</li>
+                  <li>In search mode the system searches for the tag associated with the entered object.</li>
+                  <div class="flexrow flexwrap">
+                    <div>Technologies: </div>
+                    <div class="chipproj">OpenCV</div>
+                    <div class="chipproj">OpenAL</div>
+                    <div class="chipproj">SFML</div>
+                    <div class="chipproj">Microsoft Visual Studio</div>
+                    <div class="chipproj">Linux</div>
+                  </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="chipaccexp">Gender Recognition by Voice using Machine Learning Techniques</div>
+              <div>
+                <ul style="list-style-type:disc;">
+                  <li>Machine learning techniques were applied on acoustic properties of voice to predict the gender.</li>
+                  <li>Achieved an accuracy of over 97% in predicting the gender using Random Forest Classifier model.</li>
+                  <div class="flexrow flexwrap">
+                    <div>Technologies: </div>
+                    <div class="chipproj">Python</div>
+                    <div class="chipproj">Sci-kit</div>
+                    <div class="chipproj">Numpy</div>
+                    <div class="chipproj">Pandas</div>
+                  </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="chipaccexp pointer">Energy Efficient Assisted GPS Measurement and Path Reconstruction</div>
+              <div>
+                <ul style="list-style-type:disc;">
+                  <li>Developed a software to reduce power consumption of wearable GPS and cellular tracker devices.</li>
+                  <li>GPS history data collected were filtered, clustered and pruned to detect frequently visited locations and
+                    crucial locations (for path reconstruction purpose).</li>
+                  <div class="flexrow flexwrap">
+                    <div>Technologies: </div>
+                    <div class="chipproj">Python</div>
+                    <div class="chipproj">MATLAB</div>
+                    <div class="chipproj">Linux</div>
+                  </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="Education" class="tabcontent">
+            <div class="panel">
+              <span class="boldtext">EDUCATION</span>
+            </div>
+            <div style="height: 2vmin; width: 100%"></div>
+            <div style="height: 2vmin; width: 100%"></div>
+            <button id="amaljyothipage" class="accordion" onclick="openLink(this)">
+              <div class="flexrow" style="width: 100%">
+                <img src="assets/images/ajceicon.jpg" alt="" class="ajceiconstyle">
+                <div class="chipacc">Amal Jyothi College of Engineering</div>
+              </div>
+              <div style="margin-left: 12vmin; margin-bottom: 2vmin;">
+                Bachelor of Technology, Computer Science
+              </div>
+              <div style="margin-left: 12vmin; margin-bottom: 1vmin;">
+                2011 - 2015
+              </div>
+              <div style="margin-left: 12vmin">
+                <div class="flexrow flexwrap">
+                  <div style="margin-top: 1.3vmin">GPA: </div>
+                  <div class="chipexp">7.37 / 10</div>
+                </div>
+              </div>
+            </button>
+          </div>
+          <div id="ContactMe" class="tabcontent">
+            <div class="panel">
+              <span class="boldtext">CONTACT ME</span>
+            </div>
+            <div style="padding: 3vmin">
+              <!-- <span>Email: &nbsp;</span> -->
+              <img src="assets/images/gmailicon.svg" alt="" class="gmailiconstyle"> &nbsp; </img>
+              <a class="email" href="mailto:jinumathew04@gmail.com?Subject=Hello%20Jinu" target="_top">jinumathew04@gmail.com</a>
+            </div>
+            <div style="padding: 3vmin">
+              <img src="assets/images/phoneicon.svg" alt="" class="phoneiconstyle"> &nbsp; </img>
+              <a class="email" href="tel:+15109028109" target="_top"> +1 (510)-902-8109</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function sociaimageclick(event) {
+        if (event.id == 'githubicon') {
+          window.open("https://github.com/jinumathew04", '_blank');
+        } else if (event.id == 'linkedinicon') {
+          window.open("https://www.linkedin.com/in/jinurosemathew/", '_blank');
+        } else if (event.id == 'fbicon') {
+          window.open("https://www.facebook.com/jinurosemathew", '_blank');
+        } else if (event.id == 'twittericon') {
+          window.open("https://twitter.com/rose_jinu", '_blank');
+        } else if (event.id == 'resumeicon') {
+          window.open("assets/pdf/resume.pdf", '_blank');
+        }
+      }
+
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      function openLink(event) {
+        var i, tabcontent, tablinks;
+        if (event.id == 'amaljyothipage') {
+          window.open("https://ajce.in/", '_blank');
+        }
+
+      }
+
+      function openAccordian(evt, accname) {
+        var eltup = document.getElementById(accname + 'up');
+        var eltdown = document.getElementById(accname + 'down');
+        vareltpanel = document.getElementById(accname + 'panel');
+        if (evt.currentTarget.className.includes('lightbackcolor')) {
+          eltup.style.display = 'block';
+          eltdown.style.display = 'none';
+          vareltpanel.style.display = 'block';
+        } else {
+          eltup.style.display = 'none';
+          eltdown.style.display = 'block';
+          vareltpanel.style.display = 'none';
+        }
+        evt.currentTarget.classList.toggle("lightbackcolor");
+      }
+    </script>
+  </body>
+</div>
+
+</html>
