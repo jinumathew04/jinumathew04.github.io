@@ -1,343 +1,334 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<div class="mainpage">
-
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Jinu Rose Mathew</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/newstylesheet.css" media="screen">
-  </head>
-
-  <body>
-    <div class="flexrow headersection">
-      <div>
-        <img src="assets/images/jinu.jpg" alt="" class="myimage">
-      </div>
-      <div style="width: 100%">
-        <div class="name">
-          Jinu Rose Mathew
-        </div>
-        <div class="flexrow social">
-          <div></div>
-          <div class="flexrow social">
-            <img id='githubicon' src="assets/images/githubicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
-            <img id='linkedinicon' src="assets/images/linkedinicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
-            <img id='fbicon' src="assets/images/fbicon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
-            <img id='twittericon' src="assets/images/twittericon.svg" alt="" class="socialimage" onclick="sociaimageclick(this)">
-            <img id='resumeicon' src="assets/images/resumeicon.jpg" alt="" class="socialimage" onclick="sociaimageclick(this)">
-          </div>
-          <div></div>
-        </div>
-      </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinu Rose Mathew | AI & Machine Learning Researcher</title>
+    <meta name="description" content="Portfolio of Jinu Rose Mathew, an AI & Machine Learning Researcher specializing in Python, RAG, and data-driven solutions.">
+    <meta name="keywords" content="Jinu Rose Mathew, AI Researcher, Program Manager, San Jose State University, Python, RAG">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Ambient Aurora CSS Background -->
+    <div class="aurora-bg">
+        <div class="aurora-orb aurora-orb-1"></div>
+        <div class="aurora-orb aurora-orb-2"></div>
+        <div class="aurora-orb aurora-orb-3"></div>
     </div>
-    <div class="bodysection">
-      <div class="flexrow fullheight">
-        <div class="tab flexcol">
-          <button class="tablinks active" onclick="openCity(event, 'About Me')">ABOUT ME</button>
-          <button class="tablinks" onclick="openCity(event, 'Technical Skills')">TECHNICAL SKILLS</button>
-          <button class="tablinks" onclick="openCity(event, 'Experience')">EXPERIENCE</button>
-          <button class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</button>
-          <button class="tablinks" onclick="openCity(event, 'Education')">EDUCATION</button>
-          <button class="tablinks" onclick="openCity(event, 'ContactMe')">CONTACT ME</button>
-        </div>
-        <div style="overflow: scroll;">
-          <div id="About Me" class="tabcontent" style="display: block; height: 100%;">
-            <div class="panel">
-              <span class="boldtext">ABOUT ME</span>
-            </div>
-            <div class="aboutpanel myfullimage">
-              <p style="word-wrap: break-word;">Program Manager with 2+ years of professional experience. I am a dynamic, engaging manager with extensive experience
-                in client management, analysis, and operations. I have worked in the education management industry with a
-                focus of growing programs through strategy and execution.
-              </p>
-            </div>
-          </div>
 
-          <div id="Technical Skills" class="tabcontent">
-            <div class="panel">
-              <span class="boldtext">TECHNICAL SKILLS</span>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <a href="#" class="logo">JINU ROSE MATHEW</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#publications">Publications</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-            <div class="aboutpanel">
-              <div class="chip boldtext" style="color: rgb(145, 193, 255);">LANGUAGES</div>
-              <div class="flexrow flexwrap">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="container">
+        <div class="hero-content">
+            <h2 class="subtitle">Hello, I'm</h2>
+            <h1><span class="text-gradient">Jinu Rose Mathew</span></h1>
+            <h2 class="subtitle" style="color: var(--text-primary);">Data Analyst | Program Manager</h2>
+            <p class="hero-description">
+                Data-driven professional with an M.S. in Data Analytics from San Jose State University. Passionate about transforming raw data into actionable insights through predictive modeling, machine learning, and advanced visualization.
+            </p>
+            
+            <div class="hero-ctas" style="margin-top: 30px; display: flex; gap: 15px; justify-content: flex-start; flex-wrap: wrap; align-items: center;">
+                <a href="assets/pdf/resume.pdf" target="_blank" class="btn primary-btn"><i class="fa-solid fa-file-pdf"></i> View Resume</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="https://github.com/jinumathew04" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jinurosemathew/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:jinumathew04@gmail.com" class="social-icon" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="assets/images/jinu.jpg" alt="Jinu Rose Mathew" class="hero-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container section-animate">
+        <h2>About <span class="text-gradient">Me</span></h2>
+        <div class="glass-card">
+            <p style="line-height: 1.8; margin-bottom: 35px; font-size: 1.1rem; color: var(--text-primary);">
+                Data-driven professional with an M.S. in Data Analytics from San Jose State University. Passionate about transforming raw data into actionable insights through predictive modeling, machine learning, and advanced visualization. My role as a Data Analyst centers around transforming raw data into actionable insights, leading to smarter decisions and strategic planning. This commitment to excellence reflects my dedication to harnessing data analytics for organizational growth and success.
+            </p>
+            
+            <h3 style="margin-bottom: 20px; color: var(--accent-color);"><i class="fa-solid fa-code"></i> Technical Arsenal</h3>
+            <div class="tech-stack">
                 <div class="chip">Python</div>
-                <div class="chip">HTML 5</div>
-                <div class="chip">CSS3</div>
-                <div class="chip">C</div>
-              </div>
-              <div class="chip boldtext" style="color: rgb(145, 193, 255);">DATABASE</div>
-              <div class="flexrow flexwrap">
-                <div class="chip">Oracle</div>
-                <div class="chip">MySQL</div>
-                <div class="chip">SQL Server</div>
-              </div>
-              <div class="chip boldtext" style="color: rgb(145, 193, 255);">FRAMEWORKS</div>
-              <div class="flexrow flexwrap">
-                <div class="chip">Tableau</div>
-                <div class="chip">Git</div>
-                <div class="chip">Microsoft Visual Studio</div>
-                <div class="chip">Numpy</div>
                 <div class="chip">Pandas</div>
-                <div class="chip">Sci-kit</div>
-              </div>
-              <div class="chip boldtext" style="color: rgb(145, 193, 255);">SOFTWARE PROCESSES AND TOOLS </div>
-              <div class="flexrow flexwrap">
-                <div class="chip">Git</div>
-                <div class="chip">JIRA</div>
-                <div class="chip">Confluence</div>
-                <div class="chip">Jenkins</div>
-                <div class="chip">Stash</div>
-                <div class="chip">Postman</div>
-                <div class="chip">Scrum agile software methodology</div>
-              </div>
-              <div class="chip boldtext" style="color: rgb(145, 193, 255);">OPERATING SYSTEMS </div>
-              <div class="flexrow flexwrap">
-                <div class="chip">Android</div>
-                <div class="chip">Mac OS X</div>
-                <div class="chip">Linux</div>
-                <div class="chip">Windows</div>
-              </div>
+                <div class="chip">SQL</div>
+                <div class="chip">MySQL</div>
+                <div class="chip">Microsoft SQL Server</div>
+                <div class="chip">PostgreSQL</div>
+                <div class="chip">Tableau</div>
+                <div class="chip">Microsoft Power BI</div>
+                <div class="chip">IBM Cognos Analytics</div>
+                <div class="chip">Microsoft Excel</div>
+                <div class="chip">Data Analytics</div>
+                <div class="chip">Statistical Data Analysis</div>
+                <div class="chip">Program Management</div>
+                <div class="chip">Management Information Systems (MIS)</div>
+                <div class="chip">Motorola CRM</div>
+                <div class="chip">Java</div>
+                <div class="chip">Software Development</div>
+                <div class="chip">HTML</div>
+                <div class="chip">CSS</div>
             </div>
-          </div>
-          <div id="Experience" class="tabcontent">
-            <div class="panel">
-              <span class="boldtext">EXPERIENCE</span>
-            </div>
-            <div style="height: 2vmin; width: 100%"></div>
-            <button class="accordion" onclick="openAccordian(event, 'tesla')">
-              <div class="flexrow" style="width: 100%;">
-                <img src="assets/images/asapicon.png" alt="" class="asapiconstyle">
-                <div class="chipacc">Additional Skill Acquisition Program, Govt. of Kerala</div>
-                <div class="chipacc" style="margin-left: auto">Kerala, India</div>
-                <img id="teslaup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
-                <img id="tesladown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
-              </div>
-            </button>
-            <div id="teslapanel" class="subpanel">
-              <div class="flexrow subexp">
-                <div class="chipexp">Program Manager</div>
-                <div class="chipexp">Mar 2018 – Sep 2019</div>
-              </div>
-              <div>
-                <div class="chipaccexp">Management Information System</div>
-                <ul style="list-style-type:disc;">
-                  <li>MIS is the web application used by ASAP for the Skill Development Center management.</li>
-                  <li>The application was used for asset management, financial management, Quality assurance and report generation.</li>
-                  <li>Effectively communicated with stakeholders for requirement gathering.</li>
-                  <li>Conducted weekly meetings and stand-ups to ensure timely delivery of the product.</li>
-                  <li>Automated weekly and daily reports for the upper management using Python and SQL Server. </li>
-                  <li>Created technical documentation in confluence for various modules of the application.</li>
-                  <li>Coordinated releases for the MIS application.</li>
-                  <li>Performed Integration, Functional, Acceptance and Smoke testing of application for each release.</li>
-                </ul>
-                <div class="technologies">
-                  <div class="flexrow">
-                    <div class="chipexp">Technologies</div>
-                    <div class="padng">Python, Oracle, JIRA, Confluence, Postman
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flexrow subexp">
-                <div class="chipexp">Program Manager</div>
-                <div class="chipexp">Mar 2017 – Mar 2018</div>
-              </div>
-              <div>
-                <div class="chipaccexp">Account Management System</div>
-                <ul style="list-style-type:disc;">
-                  <li>Account management System is a web application used for fund allotments within the organization.</li>
-                  <li>The application has the option for Fund request, Expenditure Analysis and Fund allotment for ASAP.</li>
-                  <li>Created expenditure reports using Python and SQL Server for upper management.</li>
-                  <li>Performed the Integration, Functional, Acceptance and Smoke testing for the application.</li>
-                  <li>Tested the API’s for the application using postman.</li>
-                  <li>Created documentation for project in confluence. </li>
-                </ul>
-                <div class="technologies">
-                  <div class="flexrow">
-                    <div class="chipexp">Technologies</div>
-                    <div class="padng">Python, Oracle, JIRA, Confluence, Postman
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flexrow subexp">
-                <div class="chipexp">Program Manager Trainee</div>
-                <div class="chipexp">Jan 2017 – Mar 2017</div>
-              </div>
-              <div>
-                <div class="chipaccexp">Training Project</div>
-                <ul style="list-style-type:disc;">
-                  <li>Created a dashboard to track the skill development class progression.</li>
-                  <li>The dashboard tracked the class details and completion status.</li>
-                  <li>The project also predicted the tentative dates for the completion of pending classes within a given deadline.</li>
-                </ul>
-                <div class="technologies">
-                  <div class="flexrow">
-                    <div class="chipexp">Technologies</div>
-                    <div class="padng">Tableau, MySQL
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div id="Projects" class="tabcontent">
-            <div class="panel">
-              <span class="boldtext">ACADEMIC PROJECTS</span>
-            </div>
-            <div style="height: 2vmin; width: 100%"></div>
-            <button class="accordion" onclick="openAccordian(event, 'ritacademic')">
-              <div class="flexrow" style="width: 100%">
-                <img src="assets/images/ajceicon.jpg" alt="" class="ajceiconstyle">
-                <div class="chipacc">Amal Jyothi College of Engineering</div>
-                <div class="chipacc" style="margin-left: auto">Kerala, IN</div>
-                <img id="ritacademicup" src="assets/images/uparrow.svg" alt="" class="upiconstyle">
-                <img id="ritacademicdown" src="assets/images/downarrow.svg" alt="" class="downiconstyle">
-              </div>
-            </button>
-            <div id="ritacademicpanel" class="subpanel">
-              <div class="chipaccexp">Blind Assistive Technology (BAT)</div>
-              <div>
-                <ul style="list-style-type:disc;">
-                  <li>The proposed system was designed to help the visually impaired people to locate their objects.</li>
-                  <li>BAT uses camera and OpenCV libraries to detect pre-defined tags that are used to identify objects.</li>
-                  <li>The System uses sound to detect the position of the tagged objects. The sound frequency varies based on
-                    the proximity to the object.</li>
-                  <li>While in learn mode, the system associates pre-defined tags with objects.</li>
-                  <li>In search mode the system searches for the tag associated with the entered object.</li>
-                  <div class="flexrow flexwrap">
-                    <div>Technologies: </div>
-                    <div class="chipproj">OpenCV</div>
-                    <div class="chipproj">OpenAL</div>
-                    <div class="chipproj">SFML</div>
-                    <div class="chipproj">Microsoft Visual Studio</div>
-                    <div class="chipproj">Linux</div>
-                  </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="chipaccexp">Online Attic</div>
-              <div>
-                <ul style="list-style-type:disc;">
-                  <li>Developed a web application to trade pre-owned electronic goods to reduce e-waste.</li>
-                  <li>Website had a Bidding option available that would allow the seller reap the best price for the product.</li>
-                  <li>The seller could also add a product for a fixed price and buyers could search for the products and sort
-                    by price using the filter options available in the website.</li>
-                  <li>Published as an internal website in college and was well received with special recognition from the Dean</li>
-                  <div class="flexrow flexwrap">
-                    <div>Technologies: </div>
-                    <div class="chipproj">PHP</div>
-                    <div class="chipproj">MySQL</div>
-                    <div class="chipproj">HTML</div>
-                    <div class="chipproj">CSS</div>
-                  </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div id="Education" class="tabcontent">
-            <div class="panel">
-              <span class="boldtext">EDUCATION</span>
-            </div>
-            <div style="height: 2vmin; width: 100%"></div>
-            <div style="height: 2vmin; width: 100%"></div>
-            <button id="amaljyothipage" class="accordion" onclick="openLink(this)">
-              <div class="flexrow" style="width: 100%">
-                <img src="assets/images/ajceicon.jpg" alt="" class="ajceiconstyle">
-                <div class="chipacc">Amal Jyothi College of Engineering</div>
-              </div>
-              <div style="margin-left: 12vmin; margin-bottom: 2vmin;">
-                Bachelor of Technology, Computer Science
-              </div>
-              <div style="margin-left: 12vmin; margin-bottom: 1vmin;">
-                2011 - 2015
-              </div>
-              <div style="margin-left: 12vmin">
-                <div class="flexrow flexwrap">
-                  <div style="margin-top: 1.3vmin">GPA: </div>
-                  <div class="chipexp">7.37 / 10</div>
-                </div>
-              </div>
-            </button>
-          </div>
-          <div id="ContactMe" class="tabcontent">
-            <div class="panel">
-              <span class="boldtext">CONTACT ME</span>
-            </div>
-            <div style="padding: 3vmin">
-              <!-- <span>Email: &nbsp;</span> -->
-              <img src="assets/images/gmailicon.svg" alt="" class="gmailiconstyle"> &nbsp; </img>
-              <a class="email" href="mailto:jinumathew04@gmail.com?Subject=Hello%20Jinu" target="_top">jinumathew04@gmail.com</a>
-            </div>
-            <div style="padding: 3vmin">
-              <img src="assets/images/phoneicon.svg" alt="" class="phoneiconstyle"> &nbsp; </img>
-              <a class="email" href="tel:+15109028109" target="_top"> +1 (510)-902-8109</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
 
-    <script>
-      function sociaimageclick(event) {
-        if (event.id == 'githubicon') {
-          window.open("https://github.com/jinumathew04", '_blank');
-        } else if (event.id == 'linkedinicon') {
-          window.open("https://www.linkedin.com/in/jinurosemathew/", '_blank');
-        } else if (event.id == 'fbicon') {
-          window.open("https://www.facebook.com/jinurosemathew", '_blank');
-        } else if (event.id == 'twittericon') {
-          window.open("https://twitter.com/rose_jinu", '_blank');
-        } else if (event.id == 'resumeicon') {
-          window.open("assets/pdf/resume.pdf", '_blank');
-        }
-      }
+    <!-- Experience Section -->
+    <section id="experience" class="container section-animate">
+        <h2>Professional <span class="text-gradient">Journey</span></h2>
+        <div class="timeline">
+            
+            <!-- Austin Energy -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Dec 2024 - Present</div>
+                <div class="glass-card">
+                    <h3 class="timeline-title">Research Analyst</h3>
+                    <div class="timeline-company"><i class="fa-solid fa-bolt"></i> Austin Energy | Austin, Texas</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Assists in planning design instrumentation and research methodology for gathering data.</li>
+                            <li>Collects information and establishes a database to catalogue, update and retrieve data.</li>
+                            <li>Analyzes data to determine trend, discrepancies or other specific departmental business issues.</li>
+                            <li>Manages data using statistical analysis processes and project management techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
+            <!-- ASAP Kerala 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Feb 2017 - Sep 2019</div>
+                <div class="glass-card">
+                    <h3 class="timeline-title">Program Manager</h3>
+                    <div class="timeline-company"><i class="fa-solid fa-building"></i> Additional Skill Acquisition Programme Secretariat | Trivandrum, Kerala</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Utilized the Management Information System (MIS) to track, compare and analyze data and leveraged databases for data management.</li>
+                            <li>Developed and maintained dashboards as well as conducted data analysis to monitor the progress and completion of courses using MIS charts and data visualization tools.</li>
+                            <li>Presented data driven insights and recommendations to stakeholders to support decision making, strategic planning and successfully implemented these recommendations to enhance program efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-      function openLink(event) {
-        var i, tabcontent, tablinks;
-        if (event.id == 'amaljyothipage') {
-          window.open("https://ajce.in/", '_blank');
-        }
+            
 
-      }
+            <!-- ASAP Kerala 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Jan 2017 - Feb 2017</div>
+                <div class="glass-card">
+                    <h3 class="timeline-title">Program Manager Trainee</h3>
+                    <div class="timeline-company"><i class="fa-solid fa-building"></i> Additional Skill Acquisition Programme Secretariat | Trivandrum, Kerala</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Combined and analyzed data from multiple sources to identify trends, optimize resource allocation and improve program efficiency.</li>
+                            <li>Actively monitored the functionality of the project for the allotted district.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      function openAccordian(evt, accname) {
-        var eltup = document.getElementById(accname + 'up');
-        var eltdown = document.getElementById(accname + 'down');
-        vareltpanel = document.getElementById(accname + 'panel');
-        if (evt.currentTarget.className.includes('lightbackcolor')) {
-          eltup.style.display = 'block';
-          eltdown.style.display = 'none';
-          vareltpanel.style.display = 'block';
-        } else {
-          eltup.style.display = 'none';
-          eltdown.style.display = 'block';
-          vareltpanel.style.display = 'none';
-        }
-        evt.currentTarget.classList.toggle("lightbackcolor");
-      }
-    </script>
-  </body>
-</div>
+    <!-- Publications Section -->
+    <section id="publications" class="container section-animate">
+        <h2>My <span class="text-gradient">Publications</span></h2>
+        <div class="grid-container">
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-book-open" style="color: var(--accent-color);"></i> RAG Based Restaurant Chatbot with AI Testability</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">2024 IEEE 10th International Conference on Big Data Computing Service and Machine Learning Applications (BigDataService)</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Co-authored a comprehensive study on integrating Retrieval-Augmented Generation (RAG) with conversational AI frameworks to enhance testability, reliability, and accuracy in domain-specific chatbots.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">IEEE</div>
+                    <div class="chip">RAG</div>
+                    <div class="chip">Chatbots</div>
+                    <div class="chip">LLMs</div>
+                </div>
+                <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <a href="https://ieeexplore.ieee.org/document/10730393" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0, 242, 254, 0.1); border: 1px solid rgba(0, 242, 254, 0.3); color: var(--accent-color); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(0, 242, 254, 0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.background='rgba(0, 242, 254, 0.1)'; this.style.transform='translateY(0)';">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View on IEEE Xplore
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Education Section -->
+    <section id="education" class="container section-animate">
+        <h2>My <span class="text-gradient">Education</span></h2>
+        <div class="grid-container">
+            <!-- SJSU -->
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-graduation-cap" style="color: var(--accent-color);"></i> M.S. in Data Analytics</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University</h4>
+                <p>Jan 2021 – Dec 2023 | GPA: 3.88/4</p>
+                <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6;">Core Focus: Data Analytics and predictive modeling.</p>
+            </div>
+
+            <!-- MGU -->
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-graduation-cap" style="color: var(--accent-color);"></i> B.Tech in Computer Science</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">Mahatma Gandhi University</h4>
+                <p>2011 – 2015 | GPA: 7.37/10</p>
+                <p style="margin-top: 15px; font-size: 0.95rem; line-height: 1.6;">Activities and societies: Innovation and Entrepreneurship club, IEEE. Member for Innovation and Entrepreneurship club at our college. Conducted workshops helping students to become creative practitioners and culturally-minded innovators.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>My <span class="text-gradient">Projects</span></h2>
+        <div class="grid-container">
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-robot" style="color: var(--accent-color);"></i> RAG based Restaurant Chatbot</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Retrieval Augmented Generation (RAG) based Restaurant Chatbot with AI Testability.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">AI / ML</div>
+                    <div class="chip">RAG</div>
+                    <div class="chip">Chatbot</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-bicycle" style="color: var(--accent-color);"></i> Citi Bike 2020 Ride Analysis</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University | Aug 2021 – Dec 2021</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Developed an interactive dashboard using Tableau that gives insights about the Citi Bike 2020 ride details. Performed the data visualization and gained insights using various Tableau features.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">Python</div>
+                    <div class="chip">Pandas</div>
+                    <div class="chip">MS Excel</div>
+                    <div class="chip">Tableau</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-chart-line" style="color: var(--accent-color);"></i> Forecasting of Walmart Sales Data</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University | Aug 2021 – Dec 2021</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Designed a model for the prediction of Walmart sales using machine learning algorithms. Performed data preprocessing using pandas and exploratory data analysis. Achieved an accuracy of 98% using the XGboost algorithm.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">Python</div>
+                    <div class="chip">Pandas</div>
+                    <div class="chip">Scikit-learn</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-map-location-dot" style="color: var(--accent-color);"></i> History of Silicon Valley</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University | Aug 2021 – Oct 2021</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Created a narrative story on the history of silicon valley using online geographic information system services called ArcGIS. Used features like sidecar, map tour, and slideshow.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">ArcGIS</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-syringe" style="color: var(--accent-color);"></i> Analysis on COVID-19 Vaccination</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University | Jan 2021 – May 2021</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Designed a data model using MySQL Workbench to analyze the adverse side effects of vaccines. Carried out data preprocessing using Pandas and analyzed in PostgreSQL using SQL and Tableau.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">Python</div>
+                    <div class="chip">PostgreSQL</div>
+                    <div class="chip">MySQL</div>
+                    <div class="chip">Tableau</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-taxi" style="color: var(--accent-color);"></i> Exploratory Data Analysis of NYC TLC</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">San Jose State University | Jan 2021 – May 2021</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Created a data pipeline using AWS services for analyzing NYC trip taxi records. Carried out data cleansing using PySpark and developed a dashboard connecting Redshift with Tableau.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">Python</div>
+                    <div class="chip">AWS Glue</div>
+                    <div class="chip">Redshift</div>
+                    <div class="chip">Tableau</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-eye-low-vision" style="color: var(--accent-color);"></i> Blind Assistive Technology (BAT)</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">Mahatma Gandhi University | Jan 2015 – May 2015</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">System to help visually impaired locate objects using camera and OpenCV. The system uses sound frequency that varies based on proximity to the tagged object.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">OpenCV</div>
+                    <div class="chip">OpenAL</div>
+                    <div class="chip">Linux</div>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <h3 style="color: var(--text-primary); margin-bottom: 10px;"><i class="fa-solid fa-shop" style="color: var(--accent-color);"></i> Online Attic</h3>
+                <h4 style="margin-bottom: 15px; color: var(--text-secondary);">Mahatma Gandhi University | Jul 2014 – Dec 2014</h4>
+                <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);">Web application to trade pre-owned electronic goods. Website had a Bidding option available that would allow the seller to reap the best price. Well received with special recognition from the Dean.</p>
+                <div class="tech-stack" style="margin-top: 20px;">
+                    <div class="chip">PHP</div>
+                    <div class="chip">MySQL</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container section-animate" style="min-height: 60vh; text-align: center;">
+        <h2>Get In <span class="text-gradient">Touch</span></h2>
+        <p style="max-width: 600px; margin: 0 auto 40px auto; color: var(--text-secondary); line-height: 1.6; font-size: 1.1rem;">
+            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        </p>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+            <a href="mailto:jinumathew04@gmail.com" class="contact-link">
+                <i class="fa-solid fa-envelope"></i> jinumathew04@gmail.com
+            </a>
+            <a href="tel:+15109028109" class="contact-link">
+                <i class="fa-solid fa-phone"></i> +1 (510) 902-8109
+            </a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px 0; border-top: 1px solid var(--card-border); margin-top: 50px;">
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Designed & Built for Jinu Rose Mathew.
+        </p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
 </html>
